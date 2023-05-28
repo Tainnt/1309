@@ -36,7 +36,7 @@ export default function Home() {
             <p style={{padding: '5px 0'}}>Nhấn vào hình để mở bản đồ nhé !!!</p>
           </div>
         </div>
-        <div style={{padding: '10px 0', color: 'white', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+        <div style={{paddingTop: 10, paddingBottom: 20, color: 'white', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <div style={{textAlign: 'center', paddingBottom: 10, fontSize: 14}}>
             <h3>Techcombank</h3>
             <p>NGUYEN THI THUY TRANG</p>
@@ -44,11 +44,10 @@ export default function Home() {
           </div>
           <img style={{ borderRadius: 5, width: '40%' }} src="/static/images/qrcode.png" alt="QC Code" />
         </div>
-        <div style={{padding: '10px 0', backgroundColor: 'white' ,color: '#d59a57', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-          <img style={{ borderRadius: 5, width: '20%' }} src="/static/images/ring-svg.png" alt="QC Code" />
-          <h3 style={{padding: '10px 0'}}>Cảm ơn mọi người</h3>
-        </div>
       </div>
+      <div style={{padding: '12px 0', backgroundColor: 'white' ,color: '#d59a57', display: 'flex', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
+          <img style={{ borderRadius: 5, height: 100 }} src="/static/images/ring-svg.png" alt="QC Code" />
+        </div>
     </main>
   )
 }
