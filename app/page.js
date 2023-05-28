@@ -49,7 +49,7 @@ export default function Home() {
             <p>NGUYEN THI THUY TRANG</p>
             <p>1903 5190 1590 18</p>
           </div>
-          <img style={{ borderRadius: 5, width: '80%' }} src="/static/images/qrcode.png" alt="QC Code" />
+          <img style={{ borderRadius: 5, width: '40%' }} src="/static/images/qrcode.png" alt="QC Code" />
         </div>
       </div>
     </main>
