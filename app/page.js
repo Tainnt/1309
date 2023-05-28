@@ -7,21 +7,21 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/Images/Cover.png"
+          src="/static/images/Cover.png"
           alt="Cover"
           width={1154}
           height={800}
         />
         <Image
           className={styles.logo}
-          src="/Images/Page-1.png"
+          src="/static/images/Page-1.png"
           alt="Page-1"
           width={638}
           height={938}
         />
         <Image
           className={styles.logo}
-          src="/Images/Page-2.png"
+          src="/static/images/Page-2.png"
           alt="Page-2"
           width={638}
           height={938}
