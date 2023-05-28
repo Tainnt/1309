@@ -33,14 +33,7 @@ export default function Home() {
             <a href="https://goo.gl/maps/9USnjcoqCGmpNGgb6" style={{display: 'flex', justifyContent: 'center'}}>
               <img style={{ borderRadius: 5, width: '80%' }} src="/static/images/Restaurant-map.png" alt="Hoa vien Vuon Cau" />
             </a>
-            <a href="https://goo.gl/maps/9USnjcoqCGmpNGgb6" style={{
-              maxWidth: '75vw',
-              overflowX: 'hidden',
-              textOverflow: 'ellipsis',
-              marginTop: 10,
-            }}>
-            <a>https://goo.gl/maps/9USnjcoqCGmpNGgb6</a>
-            </a>
+            <p style={{padding: '5px 0'}}>Nhấn vào hình để mở bản đồ nhé !!!</p>
           </div>
         </div>
         <div style={{padding: '10px 0', color: 'white', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
@@ -50,6 +43,10 @@ export default function Home() {
             <p>1903 5190 1590 18</p>
           </div>
           <img style={{ borderRadius: 5, width: '40%' }} src="/static/images/qrcode.png" alt="QC Code" />
+        </div>
+        <div style={{padding: '10px 0', backgroundColor: 'white' ,color: '#d59a57', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+          <img style={{ borderRadius: 5, width: '20%' }} src="/static/images/ring-svg.png" alt="QC Code" />
+          <h3 style={{padding: '10px 0'}}>Cảm ơn mọi người</h3>
         </div>
       </div>
     </main>
